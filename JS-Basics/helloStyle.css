@@ -1,0 +1,65 @@
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+body {
+       
+        background-color:rgb(255, 233, 171);
+        width: 1000px;
+        height: 1000px;
+        padding: 20px;
+        margin: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+}
+  #form1 {
+    background-color:antiquewhite;
+    border: 0.5px solid brown;
+    padding: 20px;
+    margin: 20px;
+  }
+h1 {
+    color: rgb(78, 40, 94);
+    text-align: center;
+}
+h6 {
+    color:rgb(32, 18, 37)
+}
+
+#table1 {
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid brown;
+    padding: 5px;
+}
+button{
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+    background-color: orange;
+}
+button:hover {
+    background-color: orangered;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#container > div {
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+}
+#grid {
+    background-color: blue;
+    display:grid;
+    padding: 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 200px 200px auto;
+}
+.grid-item {
+    background-color: lightseagreen;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <link rel="stylesheet" href="helloStyle.css">
+    </head>
+    <body>
+       
+       <!--Display headings-->
+        <h1>Welcome Heading</h1>
+        <h1> Second Heading</h1>
+        <h6>smallest heading</h6>
+       
+        <!--Display lists--> 
+        An Ordered List:
+         <ol>
+            <li>First item</li> 
+            <li>Second item</li>
+            <li>Third item</li>
+         </ol>
+         An Unordered List:
+         <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+         </ul>
+
+        <!--Include a link to Google.com--> 
+         <h4>Link:</h4>
+         <a href="http://google.com">Google</a>
+         
+         <!--Include a table --> 
+         <h4>Table:</h4>
+         <table id="table1">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Capitol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>North Carolina</td>
+                    <td>Raleigh</td>
+                </tr>
+                <tr>
+                    <td>South Carolina</td>
+                    <td>Columbia</td>
+                </tr>
+            </tbody>
+         </table>
+         
+         <!--Example form for username and hidden password, and selection 2 ways--> 
+         <h4>Form:</h4>
+         <form id="form1"> 
+            <div>
+            <input type="text" placeholder="Username" name="uName">
+            <input name="password" type="password" placeholder="Password">
+            <input type="submit">
+        </div>
+        <div>
+            Primary Color:
+
+            <input name="color" type="radio" value="red" > Red
+            <input name="color" type="radio" value="blue" > Blue
+            <input name="color" type="radio" value="yellow" > Yellow
+        </div>
+    
+        <div>
+            Secondary Color:
+            <input name="moreColors" list="colors" placeholder="Choose">
+            <datalist id="colors">
+                <option value="Orange">
+                <option value="Green">
+                <option value="Purple">
+        </div>
+         </form>
+         <div>
+        <!--hover response button--> 
+            <button> 
+                Hover here
+            </button>
+        </div>
+       <!--Flex display--> 
+        <div id="container">
+            <div> 1. flexbox div demo </div>
+            <div> 2. flexbox div demo </div>
+            <div> 3. flexbox div demo </div>
+            <div> 4. flexbox div demo </div>
+            <div> 5. flexbox div demo </div>
+            <div> 6. flexbox div demo </div>
+            <div> 7. flexbox div demo </div>
+            <div> 8. flexbox div demo </div>
+            <div> 9. flexbox div demo </div>
+            <div> 10. flexbox div demo </div>
+        </div>
+       <!--Grid display--> 
+        <div id="grid">
+            <div class="grid-item">1. grid</div>
+            <div class="grid-item">2. grid</div>
+            <div class="grid-item">3. grid</div>
+            <div class="grid-item">4. grid</div>
+            <div class="grid-item">5. grid</div>
+            <div class="grid-item">6. grid</div>
+            <div class="grid-item">7. grid</div>
+            <div class="grid-item">8. grid</div>
+            <div class="grid-item">9. grid</div>
+            <div class="grid-item">10. grid</div>
+            <div class="grid-item">11. grid</div>
+            <div class="grid-item">12. grid</div>
+
+        </div>
+        <!--Missing photo--> 
+         <h4>Missing Picture:</h4>
+         <img src="pic.jpg" alt="alternate text (picture doesn't exist in this case)">
+    </body>
+</html>
